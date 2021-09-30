@@ -1,7 +1,41 @@
-@media only screen and (max-width:480px) {
-	main {
-		display: grid;
-		grid-template-columns: 100vw;
-	}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* RESET */
+body, p, a, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+/* BASE STYLES */
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	max-width: 960px;
+}
+
+h1 {
+	text-align: center;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	color: black;
+}
+
+img {
+	width: 80%;
+	height: auto;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #CCFAC4;
+	margin: .25em;
+	padding: .5em;
 }

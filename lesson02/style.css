@@ -1,35 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@media only screen and (min-width:600px) {
 
-/* RESET */
-body, p, a, ul, li {
-	margin: 0;
-	padding: 0;
-}
+	/* RESET */
+	body, p, a, ul, li {
+		margin: 0;
+		padding: 0;
+	}
 
-/* BASE STYLES */
-main {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 960px;
-}
+	/* BASE STYLES */
+	main {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 960px;	/* 	max-width: 960px; */
+	}
 
-body {
-	font-family: 'Poppins', sans-serif;
-}
+	body {
+		font-family: 'Poppins', sans-serif;
+	}
 
-a {
-	color: purple;
-}
+	a {
+		color: purple;
+	}
 
-.principle	{
-	margin: 1em;
-	background-color: #CCFAC4;
-	padding: 1em;
-}
+	.principle {
+		background-color: #CCFAC4;
+		margin: 1em;
+		padding: 1em;
+	}
 
-.ss {
-	max-width: 100%;
-	margin: auto ;
+	.ss {
+		margin: auto;
+		max-width: 100%;
+	}
+
 }
