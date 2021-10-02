@@ -1,11 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-h1 {
+h1, h2, h3, h4, h5, h6, a, ul {
+	font-family: 'Itim', cursive;
 	color: #ef2d56;
-	font-family: 'Varela Round', sans-serif;
+	background-color: #edc639;
+	padding: 1em;
+	text-align: center;
 }
 
-a {
-	color: #ef2d56;
-	font-family: 'Varela Round', sans-serif;
+li {
+	margin: 1em;
+	list-style: none;
+}
+
+main {
+	margin: 1em;
+}
+
+p {
+	font-family: arial;
+	text-align: center;
+}
+
+img {
+	max-width: 90vw;
 }
