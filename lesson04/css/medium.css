@@ -1,0 +1,13 @@
+@media screen and (min-width: 768px) {
+
+header {
+	display: flex;
+	align-items: center;
+}
+
+main {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
