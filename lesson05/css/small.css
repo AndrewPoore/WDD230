@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+:root {
+	--khaki: #C4B8A2;
+	--primary: 'Itim', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--primary);
+}
+
+div {
+	font-family: arial;
+}
+
+header {
+font-family: var(--primary);	
+padding: 1em;
+	display: flex;
+	text-align: center;
+	background-color: var(--khaki);
+}
+
+#headerContainer {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+nav span {
+	color: #fff;
+}
+
+nav ul {
+	display: none;
+}
+
+nav ul.active {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1em;
+	list-style: none;
+	background-color: var(--khaki);
+}
+
+nav li {
+	padding: 1em;
+}
+
+#buttonContainer {
+	background-color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	background-color: #000;
+	border: none;
+	padding: 1em;
+}
+
+.hamburger {
+	width: 35px;
+	height: 5px;
+	margin: 6px 0;
+	background-color: #fff;
+}
+
+#hamburger {
+	width: 60px;
+	height: auto;
+}
+
+#logo {
+		height: 100px;
+		width: auto;
+		margin: auto;
+}
+
+span {
+	font-family: var(--primary);
+}
+
+a {
+	font-family: var(--primary);
+	color: #000;
+}
+
+footer {
+	font-family: var(--primary);
+	background-color: var(--khaki);
+	padding: 1em;
+	text-align: center;
+}
