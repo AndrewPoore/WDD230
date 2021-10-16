@@ -14,8 +14,8 @@ div {
 }
 
 header {
-font-family: var(--primary);	
-padding: 1em;
+	font-family: var(--primary);
+	padding: 1em;
 	display: flex;
 	text-align: center;
 	align-items: center;
@@ -39,6 +39,12 @@ nav span {
 
 nav ul {
 	display: none;
+}
+
+nav a:hover {
+	color: var(--khaki);
+	background-color: #000;
+	padding: 1em;
 }
 
 nav ul.active {
