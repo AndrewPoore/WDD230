@@ -18,14 +18,19 @@ font-family: var(--primary);
 padding: 1em;
 	display: flex;
 	text-align: center;
+	align-items: center;
 	background-color: var(--khaki);
 }
 
 #headerContainer {
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 1em;
-	padding-right: 1em;
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
+	margin-right: 1em;
 }
 
 nav span {
@@ -69,20 +74,8 @@ button {
 	background-color: #fff;
 }
 
-#hamburger {
-	width: 60px;
-	height: auto;
-}
-
-#logo {
-		height: 100px;
-		width: auto;
-		margin-top: auto;
-		margin-bottom: auto;
-}
-
-span {
-	font-family: var(--primary);
+img {
+	width: 20vw;
 }
 
 a {
@@ -91,10 +84,9 @@ a {
 }
 
 footer {
+	margin-top: 100px;
 	font-family: var(--primary);
 	background-color: var(--khaki);
 	padding: 1em;
 	text-align: center;
-	position: relative;
-	top: 300px;
 }
