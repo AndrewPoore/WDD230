@@ -1,0 +1,12 @@
+@media only screen and (min-width: 992px) {
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #adobe {
+        grid-column: 3/4;
+    }
+
+}
