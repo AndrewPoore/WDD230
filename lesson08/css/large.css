@@ -1,0 +1,25 @@
+@media screen and (min-width:992px) {
+	#buttonContainer {
+		display: none;
+	}
+
+	nav ul {
+		display: flex;
+		background-color: var(--khaki);
+		justify-content: space-around;
+	}
+
+	nav li {
+		list-style: none;
+	}
+
+	main {
+		max-width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #000;
+		color: #fff;
+		padding: 1em;
+	}
+
+}
