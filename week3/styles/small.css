@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+#logo {
+    width: 200px;
+    height: auto;
+}
+
+img {
+    padding: 1rem;
+    width: 80%;
+    height: auto;
+}
+
+.design {
+    display: flex;
+    justify-content: center;
+}
+
+#type {
+    display: flex;
+    justify-content: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Red Hat Mono', monospace;
+}
+
+span,
+p,
+a,
+li {
+    font-family: Arial;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.header-footer {
+    background-color: #dbc1ab;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.type {
+    font-family: 'Red Hat Mono', monospace;
+}
