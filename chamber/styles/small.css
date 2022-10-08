@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+h1,h2,h3,h4,h5,h6, .primaryFont {
+    font-family: 'Red Hat Mono', monospace;
+}
+
+header img {
+    width: 70px;
+}
+
+/* blah */
+img {
+    width: 70px;
+}
+
+section {
+    background-color: #dbc1ab;
+    height: 35vw;
+    padding: .5rem;
+    margin: .5rem;
+}
