@@ -2,47 +2,54 @@
 <html lang="en-us">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Chamber of commerce project for WDD230." />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Chamber of commerce project for WDD230.">
     <link type="text.css" rel="stylesheet" href="styles/normalize.css">
-    <link type="text/css" rel="stylesheet" href="styles/small.css" />
-    <link type="text/css" rel="stylesheet" href="styles/medium.css" />
-    <link type="text/css" rel="stylesheet" href="styles/large.css" />
+    <link type="text/css" rel="stylesheet" href="styles/small.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
+    <link type="text/css" rel="stylesheet" href="styles/large.css">
     <title>Home | Rexburg Chamber</title>
 </head>
 
 <body>
     <header>
-        <img src="images/logo.png">
-        <h1>Rexburg</h1>
-        <h2>Chamber of Commerce</h2>
-        <a target="_blank" href="https://www.facebook.com">
-            <ion-icon name="logo-facebook"></ion-icon>
-        </a>
-        <a target="_blank" href="https://www.instagram.com">
-            <ion-icon name="logo-instagram"></ion-icon>
-        </a>
-        <nav>
-            <ul>
-                <li class="primaryFont"><a href="#">Page 1</a></li>
-                <li class="primaryFont"><a href="#">Page 2</a></li>
-                <li class="primaryFont"><a href="#">Page 3</a></li>
-                <li class="primaryFont"><a href="#">Page 4</a></li>
-            </ul>
-        </nav>
+        <div id="headerWrapper">
+            <img src="images/logo.png">
+            <section>
+                <h1>Rexburg</h1>
+                <div class="primaryFont">Chamber of Commerce</div>
+            </section>
+            <div id="headerBtns">
+                <a target="_blank" href="https://www.facebook.com">
+                    <ion-icon class="socials" name="logo-facebook"></ion-icon>
+                </a>
+                <a target="_blank" href="https://www.instagram.com">
+                    <ion-icon class="socials" name="logo-instagram"></ion-icon>
+                </a>
+                <nav>
+                    <ul class="navigation">
+                        <li class="primaryFont"><a href="#" onclick="toggleMenu()"><img id="hamburger" src="images/hamburger-menu.png.png"></a></li>
+                        <li class="primaryFont"><a href="#">Page 1</a></li>
+                        <li class="primaryFont"><a href="#">Page 2</a></li>
+                        <li class="primaryFont"><a href="#">Page 3</a></li>
+                        <li class="primaryFont"><a href="#">Page 4</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
         <span class="primaryFont" id="currentDate"></span>
     </header>
 
     <main>
-        <section>Hero with site name and call to action</section>
-        <section>Event</section>
-        <section>Weather</section>
-        <section>News Release</section>
-        <section>
-            <div>Spotlight 1</div>
-            <div>Spotlight 2</div>
-        </section>
+        <section id="hero" class="mainSection">Hero with site name and call to action</section>
+        <section class="mainSection" id="event">Event</section>
+        <section class="mainSection" id="weather">Weather</section>
+        <section class="mainSection" id="newsRelease">News Release</section>
+        <section class="mainSection" id="spotlight1">Spotlight 1</section>
+        <section class="mainSection" id="spotlight2">Spotlight 2</section>
+        <section class="mainSection" id="spotlight3">spotlight3</section>
+        <section class="mainSection" id="join">Join</section>
     </main>
 
     <footer class="primaryFont">
@@ -57,12 +64,12 @@
             <br>+(012)345-6789
             <br><a href="#" target="_blank">📍Location Map</a>
         </div>
-        <div>
+        <div id="footerBottom">
             <p>&copy;
                 <span id="year"></span>
                 Rexburg Chamber
                 <br>
-                <h5>Andrew Poore</h5>
+                <div>Andrew Poore</div>
                 <br>WDD230 Project
                 <br>Last Updated: <span id="lastModified"></span>
             </p>

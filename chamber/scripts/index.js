@@ -38,3 +38,7 @@ document.querySelector('#currentDate').innerHTML = fullDate;
 document.querySelector(
 	"#lastModified"
 ).textContent = `Last Modification: ${document.lastModified}`;
+
+function toggleMenu() {
+document.getElementsByClassName('navigation')[0].classList.toggle('responsive');
+}

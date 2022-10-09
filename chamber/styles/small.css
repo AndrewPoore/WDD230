@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
 
-h1,h2,h3,h4,h5,h6, .primaryFont {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.primaryFont {
     font-family: 'Red Hat Mono', monospace;
 }
 
+#headerWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header img {
-    width: 70px;
+    width: 50px;
+    height: 100%;
 }
 
 /* blah */
@@ -13,9 +26,74 @@ img {
     width: 70px;
 }
 
-section {
+.mainSection {
     background-color: #dbc1ab;
     height: 35vw;
     padding: .5rem;
     margin: .5rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
+}
+
+nav ul {
+    padding-left: 0px;
+}
+
+#hamburger {
+    width: 30px;
+    height: 30px;
+}
+
+.socials {
+    width: 25px;
+    height: 25px;
+    color: #000;
+}
+
+#headerBtns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #000;
+    color: #dbc1ab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#footerBottom {
+    background-color: #dbc1ab;
+    color: #000;
+    width: 100%;
+}
+
+#spotlight3 {
+display: none;
+}
+
+#join {
+    display: none;
+}
+
+footer a {
+    color: #fff;
 }
