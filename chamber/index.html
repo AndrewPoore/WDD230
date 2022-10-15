@@ -15,6 +15,7 @@
 
 <body>
     <header>
+        <div id="meetAndGreet"></div>
         <div id="headerWrapper">
             <img src="images/logo.png" alt="Rexburg Chamber of Commerce logo">
             <div>
@@ -22,12 +23,6 @@
                 <div class="primaryFont">Chamber of Commerce</div>
             </div>
             <div id="headerBtns">
-                <a target="_blank" href="https://www.facebook.com">
-                    <ion-icon class="socials" name="logo-facebook"></ion-icon>
-                </a>
-                <a target="_blank" href="https://www.instagram.com">
-                    <ion-icon class="socials" name="logo-instagram"></ion-icon>
-                </a>
                 <nav>
                     <ul class="navigation">
                         <li class="primaryFont"><a href="#" onclick="toggleMenu()"><img alt="navigation button icon"
@@ -40,18 +35,76 @@
                 </nav>
             </div>
         </div>
-        <span class="primaryFont" id="currentDate"></span>
+        <div id="headerBottom">
+            <span class="primaryFont" id="currentDate"></span>
+            <a target="_blank" href="https://www.facebook.com">
+                <ion-icon class="socials" name="logo-facebook"></ion-icon>
+            </a>
+            <a target="_blank" href="https://www.instagram.com">
+                <ion-icon class="socials" name="logo-instagram"></ion-icon>
+            </a>
+        </div>
     </header>
 
     <main>
-        <div id="hero" class="mainSection">Hero with site name and call to action</div>
-        <div class="mainSection" id="event">Event</div>
-        <div class="mainSection" id="weather">Weather</div>
-        <div class="mainSection" id="newsRelease">News Release</div>
-        <div class="mainSection" id="spotlight1">Spotlight 1</div>
-        <div class="mainSection" id="spotlight2">Spotlight 2</div>
-        <div class="mainSection" id="spotlight3">spotlight3</div>
-        <div class="mainSection" id="join">Join</div>
+        <div id="hero" class="mainSection">
+            <div id="heroWrapper">
+                <h2>Welcome to Rexburg</h2>
+                <div>
+                    <button><a class="primaryFont" href="#">Join the Chamber</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="mainSection" id="event">
+            <h2>Ribbon Cutting</h2>
+            <h3>💎The Diamond Shack</h3>
+            Join us for the grand opening of the Diamond Shack, Thursday at 1:00 p.m.
+            <a href="#">more info...</a>
+        </div>
+        <div class="mainSection" id="weather">
+            <h2>Weather</h2>
+        </div>
+        <div class="mainSection" id="newsRelease">
+            <h2>News Release</h2>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem modi qui ab aliquam ipsa expedita
+            distinctio in quo quia. Et illum ea quisquam necessitatibus eos optio mollitia nisi corporis repellendus.
+        </div>
+        <div id="Spotlights">
+            <div class="mainSection" id="spotlight1">
+                <h2>Thankful Transport</h2>
+                <img src="images/truck.png" alt="Thankful Transport logo">
+                <h3>"We get it there for you!"</h3>
+                <hr>
+                <div>
+                    hello@thankfultransport.com<br>
+                    +999-999-9999 | <a href="#" target="_blank">Thankful Transport</a>
+                </div>
+            </div>
+            <div class="mainSection" id="spotlight2">
+                <h2>Code Primera</h2>
+                <img src="images/codePrimera.png" alt="Code Primera logo">
+                <h3>An after school coding instructional program.</h3>
+                <hr>
+                <div>
+                    contact@codeprimera.com<br>
+                    +999-999-9999 | <a href="#">Code Primera</a>
+                </div>
+            </div>
+            <div class="mainSection" id="spotlight3">
+                <h2>Build a Tree Fort</h2>
+                <img src="images/tree-house.png" alt="Build a Tree Fort logo">
+                <h3>Over 1,000 Plans!</h3>
+                <hr>
+                <div>
+                    builda@treefort.com<br>
+                    +999-999-9999 | <a href="#">Tree Forts</a>
+                </div>
+            </div>
+        </div>
+        <div class="mainSection" id="join">
+        <button>Join Us!</button>
+        Discover how to join the chamber of commerce and how it will benefit your organization!
+        </div>
     </main>
 
     <footer class="primaryFont">
@@ -68,7 +121,7 @@
         </div>
         <div id="footerBottom">
             <p>&copy;<span id="year"></span>Rexburg Chamber<br>
-                <div>Andrew Poore</div><br>WDD230 Project<br>Last Updated: <span id="lastModified"></span>
+                <div>Andrew Poore</div><br>WDD230 Project<br><span id="lastModified"></span>
         </div>
     </footer>
     <script src="scripts/index.js"></script>

@@ -36,9 +36,25 @@ document.querySelector('#year').innerHTML = year;
 document.querySelector('#currentDate').innerHTML = fullDate;
 
 document.querySelector(
-	"#lastModified"
+    "#lastModified"
 ).textContent = `Last Modification: ${document.lastModified}`;
 
 function toggleMenu() {
-document.getElementsByClassName('navigation')[0].classList.toggle('responsive');
+    document.getElementsByClassName('navigation')[0].classList.toggle('responsive');
 }
+
+var dayOfWeek = new Date().getDay();
+
+function meetGreet() {
+    if (dayOfWeek == 1) {
+        let output = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+        document.querySelector('#meetAndGreet').innerHTML = output;
+    } else if (dayOfWeek == 2) {
+        let output = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+        document.querySelector('#meetAndGreet').innerHTML = output;
+    }
+}
+
+window.onload = function () {
+    meetGreet();
+};

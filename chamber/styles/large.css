@@ -2,8 +2,13 @@
 
 main {
     display: grid;
+    grid-row-gap: 30px;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, px);
+}
+
+.mainSection {
+    height: 100%;
 }
 
 #headerBtns {
@@ -70,4 +75,16 @@ main {
         grid-column: 4/5;
     }
 
+    nav a:hover {
+        color: #dbc1ab;
+        background-color: #000;
+        transition-duration: 1s;
+    }
+
+    #headerWrapper {
+        display: initial;
+    }
+    .navigation {
+        justify-content: space-around;
+    }
 }
