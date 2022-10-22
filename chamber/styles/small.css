@@ -135,13 +135,30 @@ button {
 }
 
 #hero {
+    /*!!!!!!!!!!!!!!!!!!!!
     background-image: url("../images/hero-image.jpg");
+    */
     background-color: #fff;
-    height: 500px;
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-color: #dbc1ab;
 }
+
+#hero a {
+    padding: .5rem;
+    background-color: #000;
+    color: #fff;
+}
+
+#hero img {
+    width: 100%;
+    height: auto;
+}
+
 
 #heroWrapper {
     background-color: #dbc1ab;
@@ -163,3 +180,21 @@ button a {
     color: #dbc1ab;
 }
 
+#medium-image, #large-image {
+    display: none;
+}
+
+#windChillBtn {
+    font-family: 'Red Hat Mono', monospace;
+    padding: .2rem;
+    color: #fff;
+    margin-top: .5rem;
+}
+
+#output {
+    font-weight: bold;
+}
+
+footer {
+    margin-top:0;
+}

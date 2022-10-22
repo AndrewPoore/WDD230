@@ -55,6 +55,25 @@ function meetGreet() {
     }
 }
 
+function doInputOutput() {
+
+            //Get input values from user.
+            let t = parseFloat(document.getElementById('temperature').value);
+            let s = parseFloat(document.getElementById('windSpeed').value);
+
+            //Call the function that calculates wind chill using the user's input values.
+            windChill(t, s);
+            x = windChill(t, s);
+
+            //Display wind chill to user.
+            document.getElementById('output').innerHTML = `The wind chill is currently ${x}`;
+        }
+
+        function windChill(t, s) {
+            let windChill = 35.74 + 0.6215 * t - 35.75 * s ** 0.16 + 0.4275 * t * s ** 0.16;
+            return windChill;
+        }
+
 window.onload = function () {
     meetGreet();
 };
