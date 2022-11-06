@@ -1,0 +1,80 @@
+/***************************************
+#hero {
+    background-image: url("../images/hero-image.jpg");
+    background-color: #fff;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.primaryFont {
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.responsive li {
+    display: block;
+}
+
+header img {
+    width: 50px;
+    height: auto;
+}
+
+#headerWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#headerWrapper h1 {
+    margin:0px;
+}
+
+#headerBottom{
+    display: flex;
+    padding: .5em;
+    justify-content: space-evenly;
+}
+
+.socials, nav a {
+    color: #000;
+}
+
+/* MAIN */
+
+.galleryImg {
+    width: 100%;
+    height: auto;
+    padding: .5em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    /* dbc1ab */
+}
+
+footer img {
+    width: 50px;
+}

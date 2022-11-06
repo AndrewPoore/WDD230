@@ -198,3 +198,31 @@ button a {
 footer {
     margin-top:0;
 }
+
+main {
+    padding: .5em;
+}
+
+.galleryImg {
+    width: 100%;
+    margin-top: .25em;
+    margin-bottom: .25em;
+}
+
+input,
+select,
+textarea,
+button {
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.formfield {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+#business, #membership {
+    margin: 1rem;
+}
