@@ -226,3 +226,7 @@ button {
 #business, #membership {
     margin: 1rem;
 }
+
+#submitLabel {
+    display: none;
+}
