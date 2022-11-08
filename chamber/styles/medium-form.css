@@ -53,8 +53,23 @@
 }
 
 main {
-    max-width: 400px;
-    margin-right: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.membership {
+    display: none;
+}
+
+#membershipDescriptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.levels {
+    background-color: #dbc1ab;
+    padding: 1rem;
 }
 
 }
