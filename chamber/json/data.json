@@ -1,0 +1,58 @@
+{
+    "businesses": [
+        {
+            "imageURL": "https://cdn.glitch.global/3df84806-cf38-4824-8073-a1887a843456/1.png?v=1668374971757",
+            "address": "2115 S Vista Avenue Boise, ID 83705",
+            "phone": "(208)342-9386",
+            "url": "https://idahowebsites.com/"
+        },
+        {
+            "imageURL": "https://cdn.glitch.global/3df84806-cf38-4824-8073-a1887a843456/2.png?v=1668374971437",
+            "address": "4072 E Arch Drive Meridian, ID 83646",
+            "phone": "(208)631-0640",
+            "url": "https://www.surgewebdesign.com/"
+        },
+        {
+            "imageURL": "https://cdn.glitch.global/3df84806-cf38-4824-8073-a1887a843456/3.png?v=1668374971014",
+            "address": "1788 E Summerplace Court Meridian, ID 83646",
+            "phone": "(208)631-4984",
+            "url": "https://graphiczen.com/"
+        },
+        {
+            "imageURL": "https://cdn.glitch.global/3df84806-cf38-4824-8073-a1887a843456/4.png?v=1668374970709",
+            "address": "1215 3rd Street Nampa, ID 83651",
+            "phone": "(208)488-5070",
+            "url": "https://www.peppershock.com/"
+        },
+        {
+            "imageURL": "https://cdn.glitch.global/3df84806-cf38-4824-8073-a1887a843456/5.png?v=1668374970406",
+            "address": "Star, ID 83669",
+            "phone": "(208)358-1426",
+            "url": "https://flashtechnicalservices.com/"
+        },
+        {
+            "imageURL": "https://cdn.glitch.global/3df84806-cf38-4824-8073-a1887a843456/6.png?v=1668374970099",
+            "address": "1725 E Overland Road Meridian, ID 83642",
+            "phone": "(208)583-2962",
+            "url": "https://metrocarwash.com/"
+        },
+        {
+            "imageURL": "https://cdn.glitch.global/3df84806-cf38-4824-8073-a1887a843456/7.png?v=1668374969777",
+            "address": "360 E 500 N Idaho Falls, ID 83402",
+            "phone": "(208)574-4340",
+            "url": "https://www.simpleweb.com/"
+        },
+        {
+            "imageURL": "https://cdn.glitch.global/3df84806-cf38-4824-8073-a1887a843456/8.png?v=1668374969393",
+            "address": "2084 W 300 N Meridian, ID 83646",
+            "phone": "(208)154-7936",
+            "url": "https://www.moderngraphics.com/"
+        },
+        {
+            "imageURL": "https://cdn.glitch.global/3df84806-cf38-4824-8073-a1887a843456/9.png?v=1668374969048",
+            "address": "2843 E Ontario Avenue Meridian, ID 83646",
+            "phone": "(208)542-1737",
+            "url": "https://www.classicdesigns.com/"
+        }
+    ]
+}
