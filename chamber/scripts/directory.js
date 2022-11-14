@@ -60,4 +60,4 @@ function displayBusinesses(business) {
     document.querySelector('div.cards').appendChild(card);
 }
 
-console.log(getBusinesses);
+getBusinesses;
