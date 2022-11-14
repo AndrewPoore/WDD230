@@ -1,4 +1,3 @@
-/*
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
@@ -17,7 +16,7 @@ function showList() {
     display.classList.add("list");
     display.classList.remove("grid");
 }
-*/
+
 
 const requestURL = 'https://andrewpoore.github.io/wdd230/chamber/json/data.json';
 const cards = document.querySelector('.cards');
