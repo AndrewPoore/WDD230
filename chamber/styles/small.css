@@ -230,3 +230,7 @@ button {
 #submitLabel {
     display: none;
 }
+
+label, input {
+    font-family: Arial, Helvetica, sans-serif;
+}

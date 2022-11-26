@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Join page for WDD230 project.">
+    <meta name="description" content="Chamber of commerce project for WDD230.">
     <link rel="shortcut icon" href="images/favicon.ico">
     <link type="text/css" rel="stylesheet" href="styles/normalize.css">
     <link type="text/css" rel="stylesheet" href="styles/small.css">
-    <link type="text/css" rel="stylesheet" href="styles/medium-form.css">
-    <link type="text/css" rel="stylesheet" href="styles/large-form.css">
-
-    <title>Join | Rexburg Chamber</title>
+    <link type="text/css" rel="stylesheet" href="styles/medium-contact.css">
+    <title>Contact | Rexburg Chamber</title>
 </head>
 
 <body>
@@ -20,7 +18,7 @@
         <div id="headerWrapper">
             <picture>
                 <source srcset="images/logo.webp">
-                <img src="images/logo.png" alt="logo">
+                <img src="images/logo.png" alt="Rexburg Chamber logo">
             </picture>
             <div>
                 <h1>Rexburg</h1>
@@ -49,12 +47,18 @@
             </a>
         </div>
     </header>
-    <nav></nav>
-
     <main>
-        Thank you for submitting your application!
+        <h2>Contact Us!</h2>
+        <form action="thankyou.html" method="get">
+            <label>Name:<input type="text"></label><br>
+            <label>Phone:<input type="tel"></label><br>
+            <label>Email:<input type="email"></label><br>
+            <label>Additional Comments:</label><br>
+            <textarea></textarea><br>
+            <label for="submit" id="submitLabel">Submit</label>
+            <input id="submit" name="submit" type="submit" value="Contact">
+        </form>
     </main>
-
     <footer class="primaryFont">
         <div>
             <picture>
@@ -68,7 +72,9 @@
             </p>
             <br>info@rexburgchamber.org
             <br>+(012)345-6789
-            <br><a href="#" target="_blank">📍Location Map</a>
+            <br><a
+                href="https://www.google.com/maps/place/Rexburg,+ID/@43.8300451,-111.8232024,13z/data=!3m1!4b1!4m5!3m4!1s0x53540a4b807a98b1:0x4a49d8d1d2181c73!8m2!3d43.8231096!4d-111.7924237"
+                target="_blank">📍Location Map</a>
         </div>
         <div id="footerBottom">
             <p>&copy;<span id="year"></span>Rexburg Chamber<br>

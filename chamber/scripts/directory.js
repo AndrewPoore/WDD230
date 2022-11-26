@@ -17,7 +17,6 @@ function showList() {
     display.classList.remove("grid");
 }
 
-
 const requestURL = 'https://andrewpoore.github.io/wdd230/chamber/json/data.json';
 const cards = document.querySelector('.cards');
 
@@ -43,11 +42,11 @@ function displayBusinesses(business) {
     logo.setAttribute('loading', 'lazy');
 
     // Change the textContent property of the h2 element to contain the business's full address
-    h2.textContent = `${business.address}`;
+    address.textContent = `${business.address}`;
 
     // h6 content
     phone.textContent = `${business.phone}`;
-    url.textContent = `${prophet.url}`;
+    url.textContent = `${business.url}`;
 
     // Add/append the section(card) with the h2 element
     card.appendChild(logo);
@@ -59,4 +58,4 @@ function displayBusinesses(business) {
     document.querySelector('div.cards').appendChild(card);
 }
 
-getBusinesses;
+getBusinesses();
