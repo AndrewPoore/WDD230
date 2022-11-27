@@ -268,3 +268,7 @@ label, input, .galleryCtn {
 #cta {
     text-align: center;
 }
+
+main div {
+    font-family: Arial, Helvetica, sans-serif;
+}
