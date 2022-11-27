@@ -28,9 +28,11 @@
             <div id="headerBtns">
                 <nav>
                     <ul class="navigation">
-                        <li class="primaryFont"><a href="#" onclick="toggleMenu()"><img alt="navigation button icon" id="hamburger" src="images/hamburger-menu.png.png"></a></li>
+                        <li class="primaryFont"><a href="#" onclick="toggleMenu()"><img alt="navigation button icon"
+                                    id="hamburger" src="images/hamburger-menu.png.png"></a></li>
                         <li class="primaryFont"><a href="index.html">Home</a></li>
                         <li class="primaryFont"><a href="discover.html">Discover</a></li>
+                        <li class="primaryFont"><a href="directory.html">Directory</a></li>
                         <li class="primaryFont"><a href="join.html">Join</a></li>
                         <li class="primaryFont"><a href="contact.html">Contact</a></li>
                     </ul>
@@ -51,34 +53,14 @@
     <main>
 
         <div id="hero" class="mainSection">
-            
-            <!-- <picture>
-                <source id="largeHero" media="(min-width:600px)" srcset="week-6-images/temp-hero600.jpg">
-                <source media="(min-width:500px)" srcset="week-6-images/temp-hero500.jpg">
-                <img src="week-6-images/temp-hero300.jpg" alt="hero image" style="width:auto;">
-            </picture> -->
             <div id="heroWrapper">
                 <h2>Welcome to Rexburg</h2>
-                
+
                 <div>
                     <a class="primaryFont" href="join.html">Join the Chamber</a>
                 </div>
             </div>
         </div>
-
-
-        <!--
-        <div id="heroWrapper">
-
-            <picture id="hero" class="mainSection">
-                <source media="(min-width:720px)" srcset="week-6-images/medium-wdd230-org.jpg">
-                <source media="(min-width:992px)" srcset="images/hero-image.jpg">
-                <img src="week-6-images/small-wdd230-org.jpg" alt="temporary image" style="height:auto;" style="width:100%;">
-            </picture>
-            
-        -->
-        </div>
-
         <div class="mainSection" id="event">
             <h2>Ribbon Cutting</h2>
             <h3>💎The Diamond Shack</h3>
@@ -86,21 +68,29 @@
             <a href="#">more info...</a>
         </div>
         <div class="mainSection" id="weather">
-            <h2>Weather</h2>
+            <h2>Rexburg, Idaho</h2>
+
+            <p>The current temperature is <span id="temp"></span>&deg;F.</p>
+            <p>The current conditions are: <span id="currently"></span></p>
+
+            <figure>
+                <img src="" alt="" id="weathericon">
+                <figcaption></figcaption>
+            </figure>
+
             <p>
                 Enter the temperature in Farenheit and the wind speed to calculate the wind chill.
             </p>
-            <div id="output">
-            </div>
-           <div>
-            <label>Temperature:<input id="temperature" type="text"></label>
+            <div>
+                <label>Temperature:<input id="temperature" type="text"></label>
             </div>
             <div>
-            <label>Wind Speed:<input id="windSpeed" type="text"></label>
+                <label>Wind Speed:<input id="windSpeed" type="text"></label>
             </div>
             <button id="windChillBtn" onclick="doInputOutput()" type="button">
                 Calculate Wind Chill
             </button>
+            <div id="output"></div>
         </div>
         <div class="mainSection" id="newsRelease">
             <h2>News Release</h2>
@@ -132,7 +122,6 @@
             <h2>Build a Tree Fort</h2>
             <img src="images/tree-house.png" alt="Build a Tree Fort logo">
             <h3>Over 1,000 Plans!</h3>
-            <hr>
             <div>
                 builda@treefort.com<br>
                 +999-999-9999 | <a href="#">Tree Forts</a>
@@ -157,7 +146,9 @@
             </p>
             <br>info@rexburgchamber.org
             <br>+(012)345-6789
-            <br><a href="https://www.google.com/maps/place/Rexburg,+ID/@43.8300451,-111.8232024,13z/data=!3m1!4b1!4m5!3m4!1s0x53540a4b807a98b1:0x4a49d8d1d2181c73!8m2!3d43.8231096!4d-111.7924237" target="_blank">📍Location Map</a>
+            <br><a
+                href="https://www.google.com/maps/place/Rexburg,+ID/@43.8300451,-111.8232024,13z/data=!3m1!4b1!4m5!3m4!1s0x53540a4b807a98b1:0x4a49d8d1d2181c73!8m2!3d43.8231096!4d-111.7924237"
+                target="_blank">📍Location Map</a>
         </div>
         <div id="footerBottom">
             <p>&copy;<span id="year"></span>Rexburg Chamber<br>
@@ -167,6 +158,7 @@
     <script src="scripts/index.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 
 </html>

@@ -66,12 +66,12 @@ function doInputOutput() {
             x = windChill(t, s);
 
             //Display wind chill to user.
-            document.getElementById('output').innerHTML = `The wind chill is currently ${x}`;
+            document.getElementById('output').innerHTML = `The wind chill is currently ${x}<span>&deg;F.</span>`;
         }
 
         function windChill(t, s) {
             let windChill = 35.74 + 0.6215 * t - 35.75 * s ** 0.16 + 0.4275 * t * s ** 0.16;
-            return windChill;
+            return windChill.toFixed(0);
         }
 
 window.onload = function () {

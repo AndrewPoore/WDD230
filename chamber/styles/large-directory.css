@@ -1,0 +1,31 @@
+@media only screen and (min-width:992px) {
+    
+    .navigation li {
+        margin: 1em !important;
+    }
+
+    nav a:hover {
+        color: #dbc1ab;
+        background-color: #000;
+        transition-duration: 1s;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: inline;
+        margin-left:5em;
+        margin-right: 5em;
+    }
+
+    .navigation {
+        display: flex;
+    }
+
+    nav a {
+        text-align: center;
+        padding: .5em;
+    }
+}

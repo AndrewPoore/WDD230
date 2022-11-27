@@ -5,11 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles/normalize.css">
     <link type="text/css" rel="stylesheet" href="styles/directory.css">
-    <title>Directory</title>
+    <link type="text/css" rel="stylesheet" href="styles/small.css">
+    <link type="text/css" rel="stylesheet" href="styles/large-directory.css">
+    <title>Directory | Rexburg Chamber</title>
 </head>
 
 <body>
+
+    <header>
+        <div id="meetAndGreet"></div>
+        <div id="headerWrapper">
+            <picture>
+                <source srcset="images/logo.webp">
+                <img src="images/logo.png" alt="Rexburg Chamber logo">
+            </picture>
+            <div>
+                <h1>Rexburg</h1>
+                <div class="primaryFont">Chamber of Commerce</div>
+            </div>
+            <div id="headerBtns">
+                <nav>
+                    <ul class="navigation">
+                        <li class="primaryFont"><a href="#" onclick="toggleMenu()"><img alt="navigation button icon"
+                                    id="hamburger" src="images/hamburger-menu.png.png"></a></li>
+                        <li class="primaryFont"><a href="index.html">Home</a></li>
+                        <li class="primaryFont"><a href="discover.html">Discover</a></li>
+                        <li class="primaryFont"><a href="directory.html">Directory</a></li>
+                        <li class="primaryFont"><a href="join.html">Join</a></li>
+                        <li class="primaryFont"><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="headerBottom">
+            <span class="primaryFont" id="currentDate"></span>
+            <a target="_blank" href="https://www.facebook.com">
+                <ion-icon class="socials" name="logo-facebook"></ion-icon>
+            </a>
+            <a target="_blank" href="https://www.instagram.com">
+                <ion-icon class="socials" name="logo-instagram"></ion-icon>
+            </a>
+        </div>
+    </header>
+
     <main>
         <div class="menu">
             <button id="grid">Grid</button>
@@ -21,8 +61,32 @@
         </article>
     </main>
 
-    <footer></footer>
+    <footer class="primaryFont">
+        <div>
+            <picture>
+                <source srcset="images/logo.webp">
+                <img src="images/logo.png" alt="Rexburg Chamber logo">
+            </picture>
+            <p>
+                Rexburg Chamber of Commerce
+                <br>222 Tracy Run
+                <br>Rexburg, Idaho 83460
+            </p>
+            <br>info@rexburgchamber.org
+            <br>+(012)345-6789
+            <br><a href="https://www.google.com/maps/place/Rexburg,+ID/@43.8300451,-111.8232024,13z/data=!3m1!4b1!4m5!3m4!1s0x53540a4b807a98b1:0x4a49d8d1d2181c73!8m2!3d43.8231096!4d-111.7924237" target="_blank">📍Location Map</a>
+        </div>
+        <div id="footerBottom">
+            <p>&copy;<span id="year"></span>Rexburg Chamber<br>
+                <div>Andrew Poore</div><br>WDD230 Project<br><span id="lastModified"></span>
+        </div>
+    </footer>
+
+    <script src="scripts/index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="scripts/directory.js"></script>
+
 </body>
 
 </html>

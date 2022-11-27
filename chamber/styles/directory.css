@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -6,23 +8,29 @@
 
 main {
 	margin: 0 auto;
-	border: 1px solid #bbb;
 	padding: 0.5rem;
 	max-width: 960px;
-	background-color: #eee;
-	font-family: "Caveat", cursive;
+    font-family: 'Red Hat Mono', monospace;
 }
 
 .menu {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #bbb;
+	background-color: #dbc1ab;
 	text-align: center;
 }
 
 .menu button {
 	padding: 1rem;
+	background-color: #dbc1ab;
+	color: #000;
+}
+
+.menu button:hover {
+	background-color: #000;
+	color: #dbc1ab;
+	transition-duration: 1s;
 }
 
 article,
@@ -33,7 +41,7 @@ section {
 section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #ccc;
+	background-color: #dbc1ab;
 }
 
 .grid {
@@ -72,21 +80,16 @@ section {
 }
 
 .list section img {
-	display: none; /* smaller viewports only */
+	display: none;
 }
 
 section h3 {
 	font-size: 1.5rem;
 }
 
-section a {
-	font-family: "Roboto", Arial, sans-serif;
-	font-size: 0.9rem;
-}
-
 img {
 	height: 75px;
-	max-width: 100%; /* Images are jerks - Seattle*/
+	max-width: 100%;
 }
 
 @media (min-width: 992px) {
