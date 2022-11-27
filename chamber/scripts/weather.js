@@ -38,5 +38,5 @@ function displayResults(data) {
     description.textContent = desc;
     caption.textContent = `Icon of current weather condition in Rexburg which is ${desc}`;
     weathericon.src = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    weathericon.alt = `Icon of current weather condition in Rexburg which is ${desc}`;; 
+    weathericon.alt = `Icon of current weather condition in Rexburg which is ${desc}`;
 }

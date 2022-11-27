@@ -272,3 +272,7 @@ label, input, .galleryCtn {
 main div {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+figure {
+    margin: 0;
+}
