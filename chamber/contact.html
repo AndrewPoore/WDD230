@@ -8,7 +8,8 @@
     <link rel="shortcut icon" href="images/favicon.ico">
     <link type="text/css" rel="stylesheet" href="styles/normalize.css">
     <link type="text/css" rel="stylesheet" href="styles/small.css">
-    <link type="text/css" rel="stylesheet" href="styles/medium-contact.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium-form.css">
+    <link type="text/css" rel="stylesheet" href="styles/large-form.css">
     <title>Contact | Rexburg Chamber</title>
 </head>
 
@@ -50,13 +51,21 @@
     <main>
         <h2>Contact Us!</h2>
         <form action="thankyou.html" method="get">
-            <label>Name:<input type="text"></label><br>
-            <label>Phone:<input type="tel"></label><br>
-            <label>Email:<input type="email"></label><br>
-            <label>Additional Comments:</label><br>
-            <textarea></textarea><br>
-            <label for="submit" id="submitLabel">Submit</label>
-            <input id="submit" name="submit" type="submit" value="Contact">
+            <div class="formfield">
+                <label for="firstName">Name:</label><input id="firstName" name="firstName" type="text">
+            </div>
+            <div class="formfield">
+                <label for="phone">Phone:</label><input id="phone" name="phone" type="tel">
+            </div>
+            <div class="formfield">
+                <label for="email">Email:</label><input id="email" name="email" type="email">
+            </div>
+            <div class="formfield">
+                <label for="comments">Additional Comments</label><textarea id="comments" name="comments"></textarea>
+            </div>
+            <div class="formfield">
+                <input id="submit" name="submit" type="submit" value="Contact">
+            </div>
         </form>
     </main>
     <footer class="primaryFont">

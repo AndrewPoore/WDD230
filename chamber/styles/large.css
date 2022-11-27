@@ -24,10 +24,17 @@ main {
 
     .navigation li {
         display: inline;
+        margin-left:5em;
+        margin-right: 5em;
     }
 
     .navigation {
         display: flex;
+    }
+
+    nav a {
+        text-align: center;
+        padding: .5em;
     }
 
     #hero {
