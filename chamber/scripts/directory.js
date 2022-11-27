@@ -32,7 +32,7 @@ function displayBusinesses(business) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let logo = document.createElement('img');
-    let address = document.createElement('h2');
+    let address = document.createElement('h6');
     let phone = document.createElement('h6');
     let url = document.createElement('h6');
 
