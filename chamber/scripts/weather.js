@@ -1,5 +1,6 @@
 // output elements
 const temperature = document.querySelector('#temp');
+const wind = document.querySelector('#wind');
 const description = document.querySelector('#currently');
 const weathericon = document.querySelector('#weathericon'); 
 const caption = document.querySelector('figcaption');
@@ -34,6 +35,7 @@ function capitalize(string) {
 // display results
 function displayResults(data) {
     temperature.textContent = data.main.temp.toFixed(0);
+    wind.textContent = data.wind.speed.toFixed(0);
     let desc = capitalize(data.weather[0].description);
     description.textContent = desc;
     caption.textContent = `Icon of current weather condition in Rexburg which is ${desc}`;

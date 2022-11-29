@@ -121,9 +121,4 @@
         margin-right: auto;
     }
 
-    #contact,
-    #cta {
-        grid-column: 1/3;
-    }
-
 }
