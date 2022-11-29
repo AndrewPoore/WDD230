@@ -41,10 +41,8 @@ function displayBusinesses(business) {
     logo.setAttribute('alt', `${business.name} business logo`);
     logo.setAttribute('loading', 'lazy');
 
-    // Change the textContent property of the h2 element to contain the business's full address
-    address.textContent = `${business.address}`;
-
-    // h6 content
+    // Change the textContent properties to contain address, phone number, and website url
+    address.textContent = `${business.address}`
     phone.textContent = `${business.phone}`;
     url.textContent = `${business.url}`;
 
