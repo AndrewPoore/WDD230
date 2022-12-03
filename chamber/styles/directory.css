@@ -184,3 +184,11 @@ footer div {
 footer a {
 	color: #fff;
 }
+
+.list {
+	font-size: .65em;
+}
+
+.cards section {
+    justify-content: space-between;
+}

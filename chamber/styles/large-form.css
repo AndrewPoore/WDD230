@@ -93,32 +93,16 @@
         justify-content: space-around;
     }
 
-    /**********************/
+    form {
+        grid-column: 1/2;
+}
 
+.levels {
+    display: block;
+}
 
-
-    /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        #heroWrapper {
-            grid-column: 2/4;
-            grid-row: 1/3;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        */
-    #small-image,
-    #medium-image {
-        display: none;
-    }
-
-    #large-image {
-        display: initial;
-    }
-
-    main {
-        max-width: 960px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.membership {
+    display: none;
+}
 
 }

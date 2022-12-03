@@ -1,5 +1,10 @@
 @media only screen and (min-width:992px) {
-    
+
+    .grid .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .navigation li {
         margin: 1em !important;
     }
@@ -28,4 +33,7 @@
         text-align: center;
         padding: .5em;
     }
+
+
+
 }
