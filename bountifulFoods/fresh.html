@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Final project for WDD230.">
+    <link type="text/css" rel="stylesheet" href="styles/normalize.css">
+    <link type="text/css" rel="stylesheet" href="styles/small.css">
+    <title>Fresh | Bountiful Foods</title>
+</head>
+
+<body>
+    <header>
+        <div id="headerCtn">
+            <img src="images/logo.png" alt="Bountiful Foods Logo">
+            <h1>Bountiful Foods</h1>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()"><img alt="navigation button icon" id="hamburger"
+                                src="images/hamburger-menu.png"></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <a href="#">Social media links (at least three) (no account necessary).</a>
+            <a href="#">Social media links (at least three) (no account necessary).</a>
+            <a href="#">Social media links (at least three) (no account necessary).</a>
+        </div>
+    </header>
+    <main>
+        <form>
+            <div><label>First Name:<input type="text"></label></div>
+            <div><label>Email:<input type="email"></label></div>
+            <div><label>Phone:<input type="tel"></label></div>
+            <div>three (3) select inputs that are populated with the available fruit to put into a drink. Available
+                fruit
+                options must only come from this JSON data source: FRUIT Links to an external site. for full credit
+                consideration.</div>
+            <div><label>Special Instructions:<textarea></textarea></label></div>
+            <div>Do NOT send the form to a new page upon form submission. Instead, use a JavaScript event handler to
+                produce a formatted output area on this same page showing:
+                the input values of the order (7 inputs = first name, email, phone, three selected fruits, and special
+                instructions),
+                the order date, and
+                the total amount of carbohydrates, protein, fat, sugar, and calories based upon the three fruit choices
+                selected on the form. Again, use the JSON fruit data to extract and sum up that information.</div>
+        </form>
+    </main>
+    <footer>
+        <div>
+            <p>&copy;<span id="year"></span>Bountiful Foods
+                <div>Andrew Poore</div>WDD230 Project<br><span id="lastModified"></span>
+        </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
