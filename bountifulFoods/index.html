@@ -8,6 +8,7 @@
     <meta name="description" content="Final project for WDD230.">
     <link type="text/css" rel="stylesheet" href="styles/normalize.css">
     <link type="text/css" rel="stylesheet" href="styles/small.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
     <title>Home | Bountiful Foods</title>
 </head>
 
@@ -26,25 +27,39 @@
                 </ul>
             </nav>
         </div>
-        <div>
-            <a target="_blank" href="https://www.facebook.com/"><img src="images/social-icons/facebook.png" alt="Facebook Icon"></a>
-            <a target="_blank" href="https://www.instagram.com/"><img src="images/social-icons/instagram.png" alt="Instagram Icon"></a>
-            <a target="_blank" href="https://twitter.com/"><img src="images/social-icons/twitter.png" alt="Twitter Icon"></a>
+        <div id="socials">
+            <a target="_blank" href="https://www.facebook.com/"><img src="images/social-icons/facebook.png"
+                    alt="Facebook Icon"></a>
+            <a target="_blank" href="https://www.instagram.com/"><img src="images/social-icons/instagram.png"
+                    alt="Instagram Icon"></a>
+            <a target="_blank" href="https://twitter.com/"><img src="images/social-icons/twitter.png"
+                    alt="Twitter Icon"></a>
         </div>
     </header>
     <main>
-        <section>Summary information about any coastal area or areas in the southern California coast of your choosing.
+
+        <section class="section">
+            <h1>So Cal Born and Raised</h1>
+            <img loading="lazy" src="images/carlsbad.jpg" alt="Picture of Carlsbad, California.">
+            <p>
+                Bountiful Foods was started in Carlsbad California, where the owners grew up. We are proud of our
+                Southern Califronian roots. We love the beautiful sunny weather, beaches, active lifestyle, and good
+                vibes!
+            </p>
         </section>
-        <section>A call to action to make your own fruit drink mix. This link can link to the 📄Fresh page.</section>
-        <section>The weather card(s) must summarize the current weather conditions for Carlsbad.
-            Use the One Call API at openweathermap.org (Links to an external site.) (use version 2.5) and include
-            the temperature,
-            the condition description,
-            the humidity, and
-            a three (3) day temperature forecast.</section>
-        <section>Include an information card about the total number of specialty drinks that the current user has
-            submitted from the Fresh page form. This information should just be stored locally, with the user's agent
-            (browser).
+        <section>
+            <div id="cta">
+                <a href="fresh.html">Make Your Own Fruit Drink Mix!</a>
+            </div>
+        </section>
+        <section class="section">
+            <h1>Weather for Carlsbad</h1>
+            <div>
+                <p>Current Temperature: <span id="temp"></span> °F</p>
+                <p>Condition Description: <span id="currently"></span></p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>3 Day Temperature Forecast (highs at 3:00pm PST): <span id="forecast"></span></p>
+            </div>
         </section>
     </main>
     <footer>
@@ -54,6 +69,7 @@
         </div>
     </footer>
     <script src="scripts/index.js"></script>
+    <script src="scripts/forecast.js"></script>
 </body>
 
 </html>

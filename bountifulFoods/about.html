@@ -8,6 +8,7 @@
     <meta name="description" content="Final project for WDD230.">
     <link type="text/css" rel="stylesheet" href="styles/normalize.css">
     <link type="text/css" rel="stylesheet" href="styles/small.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
     <title>About Us | Bountiful Foods</title>
 </head>
 
@@ -26,17 +27,80 @@
                 </ul>
             </nav>
         </div>
-        <div>
-            <a href="#">Social media links (at least three) (no account necessary).</a>
-            <a href="#">Social media links (at least three) (no account necessary).</a>
-            <a href="#">Social media links (at least three) (no account necessary).</a>
+        <div id="socials">
+            <a target="_blank" href="https://www.facebook.com/"><img src="images/social-icons/facebook.png"
+                    alt="Facebook Icon"></a>
+            <a target="_blank" href="https://www.instagram.com/"><img src="images/social-icons/instagram.png"
+                    alt="Instagram Icon"></a>
+            <a target="_blank" href="https://twitter.com/"><img src="images/social-icons/twitter.png"
+                    alt="Twitter Icon"></a>
         </div>
     </header>
+
     <main>
-        <section> historical information about the company</section>
-        <section>contact information</section>
-        <section>Google Map</section>
+        <section class="section">
+            <h2>About Us:</h2>
+            <img loading="lazy" class="logo" src="images/logo.png" alt="Bountiful Foods Logo">
+            <p>Bountiful Foods is small business specializing in organic, locally grown foods. We have many food
+                trucks that cover the coastal area from Los Angeles to San Diego. We sell fruits and produce
+                directly from farms in the area, but also use some trusted, reputable national and international
+                suppliers of organic produce.</p>
+        </section>
+        <section class="section">
+            <h2>About Carlsbad:</h2>
+            <img loading="lazy" src="images/carlsbad-2.jpg" alt="Carlsbad, California">
+            <p>In the 1880s a former sailor named John A. Frazier dug a well in the area. He began offering his
+                water at the train station and soon the whistle-stop became known as Frazier's Station. A test done
+                on a second fresh-water well discovered the water to be chemically similar to that found in some of
+                the most renowned spas in the world, and the town was named after the famed spa in the Bohemian town
+                of Karlsbad (now Karlovy Vary, Czech Republic).To take advantage of the find, the Carlsbad Land and
+                Mineral Water Company was formed by a German-born merchant from the Midwest named Gerhard Schutte
+                together with Samuel Church Smith, D. D. Wadsworth and Henry Nelson. The naming of the town followed
+                soon after, along with a major marketing campaign to attract visitors. The area experienced a period
+                of growth, with homes and businesses sprouting up in the 1880s. Agricultural development of citrus
+                fruits, avocados and olives soon changed the landscape. By the end of 1887, land prices fell
+                throughout San Diego County. However, the community survived on the back of its fertile agricultural
+                lands.</p>
+        </section>
+        <section class="section">
+            <h2>Points of Contact:</h2>
+            <div class="contact-info">
+                <h3>Phone:</h3>
+                <span>999.999.9999</span>
+            </div>
+            <div class="contact-info">
+                <h3>Email:</h3>
+                <span>contact@bountifulfoods.com</span>
+            </div>
+            <div class="contact-info">
+                <h3>Carlsbad Location:</h3>
+                <span>3510 Camino Cereza
+                    Carlsbad, California(CA), 92009</span>
+            </div>
+            <div class="contact-info">
+                <h3>San Diego Location:</h3>
+                <span>2736 Worden St
+                    San Diego, California(CA), 92110</span>
+            </div>
+        </section>
+        <section>
+            <div id="small-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13371.454991351271!2d-117.22550764067856!3d33.08636902594869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc0b1cc7921437%3A0xa809795dbf394fb7!2s3510%20Camino%20Cereza%2C%20Carlsbad%2C%20CA%2092009!5e0!3m2!1sen!2sus!4v1670893597766!5m2!1sen!2sus"
+                    width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div id="medium-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13371.454991351271!2d-117.22550764067856!3d33.08636902594869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc0b1cc7921437%3A0xa809795dbf394fb7!2s3510%20Camino%20Cereza%2C%20Carlsbad%2C%20CA%2092009!5e0!3m2!1sen!2sus!4v1670893597766!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
     </main>
+
     <footer>
         <div>
             <p>&copy;<span id="year"></span>Bountiful Foods
