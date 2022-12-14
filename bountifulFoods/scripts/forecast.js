@@ -27,5 +27,5 @@ function capitalize(string) {
 
 // display results
 function forecastResults(dataForecast) {
-    forecast.textContent = `${dataForecast.list[4].main.temp.toFixed(2)} °F, ${dataForecast.list[12].main.temp.toFixed(2)} °F, ${dataForecast.list[20].main.temp.toFixed(2)} °F`;
+    forecast.textContent = `${dataForecast.list[7].main.temp.toFixed(2)} °F, ${dataForecast.list[15].main.temp.toFixed(2)} °F, ${dataForecast.list[23].main.temp.toFixed(2)} °F`;
 }

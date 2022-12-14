@@ -13,6 +13,7 @@ div, p, span, section, select, #submitBtn {
     display: flex;
     padding: 1rem;
     text-align: center;
+    justify-content: space-evenly;
     align-items: center;
     margin: 0;
 }
@@ -78,7 +79,7 @@ div {
 
 /* MAIN STYLES */
 main {
-    text-align: center;;
+    text-align: center;
 }
 
 main p {
